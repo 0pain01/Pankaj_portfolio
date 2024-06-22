@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
       'process.env.REACT_APP_EMAILJS_TEMPLATE_ID': JSON.stringify(env.REACT_APP_EMAILJS_TEMPLATE_ID),
       'process.env.REACT_APP_EMAILJS_PUBLIC_KEY': JSON.stringify(env.REACT_APP_EMAILJS_PUBLIC_KEY)
     },
+    base:"/Pankaj_portfolio/",
     plugins: [react()],
   }
 })
